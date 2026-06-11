@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7ede2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.countdown-container {
+    background-color: #fff9f5;
+    padding: 50px 40px;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    border: 1px solid #f2e2d2;
+}
+
+.hearts {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.title {
+    color: #6c584c;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    letter-spacing: 0.5px;
+}
+
+.timer-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.time-segment {
+    background-color: #fceddb;
+    padding: 15px 10px;
+    border-radius: 16px;
+    width: 80px;
+    border: 1px dashed #d4a373;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: bold;
+    color: #d4a373;
+}
+
+.label {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #a3a3a3;
+    margin-top: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #a3a3a3;
+    font-style: italic;
+    margin: 0;
+}
